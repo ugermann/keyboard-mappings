@@ -5,6 +5,6 @@
 
 1. `xmodmap .xmodmaprc.uk`
 2. `xkbcomp $DISPLAY .xkbmap`
-3. `echo 'xkbcomp $HOME/.xkbmap $DISPLAY' >> ~/.bashrc`
+3. `echo 'xkbcomp $HOME/.xkbmap $DISPLAY > /dev/null 2>&1' >> ~/.bashrc`
 
 
